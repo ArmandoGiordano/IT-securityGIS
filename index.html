@@ -1,64 +1,46 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Il Mio Sito Personale</title>
-  <!-- Collegamento al foglio di stile Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Aggiungi il link al file CSS di Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Stili personalizzati per lo sfondo -->
   <style>
-    /* Stile per lo sfondo */
     body {
-      background-image: url('Layers_of_Autumn.jpg');
+      background-image: url('link_allo_sfondo.jpg'); /* Sostituisci con il link all'immagine di sfondo */
       background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff; /* Colore del testo sulla pagina */
     }
   </style>
 </head>
 <body>
-  <!-- Banner dei cookie -->
-  <div id="cookie-banner" class="alert alert-primary mb-0" role="alert">
-    Questo sito utilizza i cookie per garantirti un'esperienza migliore. 
-    <button id="accept-cookies" class="btn btn-sm btn-success">Accetta</button>
-  </div>
-
-  <div class="container my-5">
+  <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <!-- Immagine del profilo -->
-        <img src="Dott.Giordano Armando.jpg" alt="Tua Foto" class="img-fluid rounded-circle">
+        <!-- Inserisci la tua foto personale -->
+        <img src="link_alla_tua_immagine.jpg" alt="La Mia Foto" class="img-fluid rounded-circle">
       </div>
       <div class="col-md-8">
-        <!-- Descrizione personale ed esperienze lavorative -->
-        <h1>Il Mio Nome</h1>
-        <p>Descrizione breve di te stesso e delle tue esperienze lavorative.</p>
+        <!-- Inserisci una breve descrizione di te stesso -->
+        <h1>Benvenuti sulla mia pagina personale</h1>
+        <p>Ciao! Sono [Tuo Nome] e ho [numero] anni di esperienza lavorativa nell'ambito di [la tua professione o settore]. Sono appassionato di [le tue passioni] e mi piace [cosa ti piace fare].</p>
         <!-- Link ai social media -->
         <p>
-          <a href="https://api.whatsapp.com/send?phone=3299824693" target="_blank" class="whatsapp">
-            Contattami su WhatsApp
-          </a>
-          <a href="https://www.linkedin.com/in/armando-giordano-018b66298" target="_blank" class="Linkedin">
-            Profilo LinkedIn
-          </a>
+          <a href="https://wa.me/numero_telefono" class="btn btn-success">WhatsApp</a>
+          <a href="https://www.linkedin.com/in/tuoprofilo" class="btn btn-primary">LinkedIn</a>
         </p>
         <!-- Link per scaricare il curriculum vitae -->
         <p>
-          <a href="link_al_tuo_cv.pdf" target="_blank" class="CV-Armando Giordano">
-            Scarica il mio CV
-          </a>
+          <a href="link_al_tuo_curriculum.pdf" class="btn btn-secondary">Scarica il mio curriculum vitae</a>
         </p>
       </div>
     </div>
   </div>
 
-  <!-- Collegamento a jQuery e al file JavaScript di Bootstrap (assicurati di avere una connessione Internet attiva) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <!-- Script per il banner dei cookie -->
-  <script>
-    document.getElementById('accept-cookies').addEventListener('click', function() {
-      document.getElementById('cookie-banner').style.display = 'none';
-    });
-  </script>
+  <!-- Aggiungi il link al file JavaScript di Bootstrap (opzionale) -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
