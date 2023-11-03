@@ -1,34 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Mia Pagina Personale</title>
-  <!-- Aggiungi il link al file CSS di Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Il Mio Sito Personale</title>
+  <!-- Collegamento al foglio di stile Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Stile per lo sfondo */
+    body {
+      background-image: url('tuo_sfondo.jpg');
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
+  <!-- Banner dei cookie -->
+  <div id="cookie-banner" class="alert alert-primary mb-0" role="alert">
+    Questo sito utilizza i cookie per garantirti un'esperienza migliore. 
+    <button id="accept-cookies" class="btn btn-sm btn-success">Accetta</button>
+  </div>
+
+  <div class="container my-5">
     <div class="row">
       <div class="col-md-4">
-        <!-- Inserisci la tua foto personale -->
-        <img src="Dott.Giordano Armando.jpg" alt="La Mia Foto" class="img-fluid rounded-circle">
+        <!-- Immagine del profilo -->
+        <img src="tua_foto.jpg" alt="Tua Foto" class="img-fluid rounded-circle">
       </div>
       <div class="col-md-8">
-        <!-- Inserisci una breve descrizione di te stesso -->
-        <h1>Benvenuti nella mia pagina personale</h1>
-        <p>Ciao! Sono Giordano Armando e mi piace condividere le mie passioni con il mondo. Sono appassionato di Geologia & Archeologia e mi piace fare escursioni in montagna per la raccolta di minerali e fossili. Unisciti a me sui social media per rimanere aggiornato sulle mie avventure e le mie passioni.</p>
-        <!-- Aggiungi i link ai tuoi social media -->
-        <div>
-          <a href="link_al_tuo_profilo_facebook" class="btn btn-primary">Facebook</a>
-          <a href="link_al_tuo_profilo_twitter" class="btn btn-info">Twitter</a>
-          <a href="link_al_tuo_profilo_instagram" class="btn btn-danger">Instagram</a>
-        </div>
+        <!-- Descrizione personale ed esperienze lavorative -->
+        <h1>Il Mio Nome</h1>
+        <p>Descrizione breve di te stesso e delle tue esperienze lavorative.</p>
+        <!-- Link ai social media -->
+        <p>
+          <a href="https://api.whatsapp.com/send?phone=TUONUMEROWHATSAPP" target="_blank" class="whatsapp">
+            Contattami su WhatsApp
+          </a>
+          <a href="https://www.linkedin.com/in/tuonome" target="_blank" class="Linkedin">
+            Profilo LinkedIn
+          </a>
+        </p>
+        <!-- Link per scaricare il curriculum vitae -->
+        <p>
+          <a href="link_al_tuo_cv.pdf" target="_blank" class="btn btn-info">
+            Scarica il mio CV
+          </a>
+        </p>
       </div>
     </div>
   </div>
 
-  <!-- Aggiungi il link al file JavaScript di Bootstrap (opzionale) -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Collegamento a jQuery e al file JavaScript di Bootstrap (assicurati di avere una connessione Internet attiva) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Script per il banner dei cookie -->
+  <script>
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  </script>
 </body>
 </html>
