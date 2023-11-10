@@ -13,6 +13,16 @@ poort<!DOCTYPE html>
       background-size: cover;
       background-repeat: no-repeat;
       color:#06000a; /* colore del testo della pagina nero */
+
+         }
+  </style>
+</head>
+<body>
+  <!-- Banner dei cookie -->
+  <div id="cookie-banner" class="alert alert-primary mb-0" role="alert">
+    Questo sito utilizza i cookie per garantirti un'esperienza migliore. 
+    <button id="accept-cookies" class="btn btn-sm btn-success">Accetta</button>
+     </div>
     }
   </style>
 </head>
@@ -63,6 +73,21 @@ poort<!DOCTYPE html>
     </div>
   </div>
   <!-- Aggiungi il link al file JavaScript di Bootstrap (opzionale) -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Script per il banner dei cookie -->
+  <script>
+    document.getElementById('accept-cookies').addEventListener('click', function() {
+      document.getElementById('cookie-banner').style.display = 'none';
+    });
+  </script>
+
+  <!-- Contenuto del file security.txt -->
+  <plaintext>
+    # Contatti di sicurezza
+    Contact: mailto:security@example.com
+  </plaintext>
 </body>
 </html>
+
