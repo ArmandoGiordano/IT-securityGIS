@@ -1,56 +1,39 @@
-poort<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>La Mia Pagina Personale</title>
-  <!-- Link al file CSS di Bootstrap -->
-  <link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.css">
-  <!-- Stili personalizzati per lo sfondo e il testo -->
+  <title>I Miei Servizi</title>
+  <!-- Aggiungi il link al file CSS di Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <!-- Stili personalizzati per lo sfondo, il carattere e il colore del testo -->
   <style>
     body {
-      background-image: url('Layers_of_Autumn.jpg'); /* Sostituisci con il link all'immagine di sfondo */
+      background-image: url('link_allo_sfondo.jpg'); /* Sostituisci con il link all'immagine di sfondo */
       background-size: cover;
       background-repeat: no-repeat;
-      color:#06000a; /* colore del testo della pagina nero */
-
-      }
-    .description {
-      font-family: helvetica, sans-serif; /* Carattere del testo */
-      font-size:20px;
+      color: #333; /* Colore del testo sulla pagina */
+      font-family: Arial, sans-serif; /* Carattere del testo */
     }
-    .formation-title {
-      color:#001ac2; /* Colore personalizzato per il titolo della formazione */
-    }
-    .job-description {
-      color: #00ff00; /* Colore personalizzato per la descrizione del lavoro */
-    }
-  </style>
-</head>
-<body>
- 
   </style>
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <!-- Inserisci la tua foto personale -->
-        <img src="Dott.Giordano Armando.jpg" alt="La Mia Foto" class="img-fluid rounded-circle">
+      <div class="col-md-12">
+        <!-- Inserisci una breve descrizione dei tuoi servizi -->
+        <h1>I Miei Servizi</h1>
+        <p>Offro servizi specializzati in due principali aree:</p>
+        <h2>IC DAC - Controllo e Automazione dei Dati Industriali</h2>
+        <p>IC DAC si concentra sulla raccolta, l'analisi e il controllo dei dati industriali per migliorare l'efficienza e la produttività nelle imprese. Offriamo soluzioni personalizzate per l'automazione dei processi industriali e l'ottimizzazione dei flussi di dati.</p>
+        <h2>IT-security - Sicurezza Informatica</h2>
+        <p>La sicurezza informatica è fondamentale in un mondo sempre più connesso. I nostri servizi IT-security aiutano a proteggere i dati e le infrastrutture aziendali da minacce online. Offriamo servizi di audit, consulenza e implementazione per garantire una protezione completa.</p>
       </div>
-      <div class="col-md-8">
-        <!-- Inserisci una breve descrizione di te stesso e le esperienze lavorative -->
-        <h1>Benvenuti sulla pagina del Dott.Armando Giordano</h1>
-        <p>Mi presento, sono Giordano Armando,e sono un Geologo Ho conseguito una laurea triennale in Scienze della Terra presso l'Università degli Studi di Napoli, dove ho potuto approfondire la mia conoscenza delle scienze geologiche, geografiche e ambientali. Questo percorso di studi mi ha fornito una solida base teorica e pratica che mi ha permesso di comprendere le dinamiche della terra, la geologia, la cartografia e le tematiche ambientali. La mia passione per le scienze della terra mi ha spinto a cercare opportunità che mi permettessero di applicare queste conoscenze in un contesto lavorativo.
-          Inoltre, ho ottenuto un diploma di perito commerciale presso l'Istituto Paritario Vilfredo Pareto di Salerno, che ha contribuito a sviluppare le mie abilità nel campo del commercio, della gestione aziendale e delle relazioni con i clienti. Ritengo che queste competenze siano fondamentali per affrontare con successo le sfide del mondo professionale.
-          Per completare il mio bagaglio di competenze, ho conseguito un diploma come perito informatico presso l'Istituto IT.S Basilio Focaccia di Salerno. Questo diploma mi ha aperto le porte per partecipare ad alcuni stage di formazione per ottenere la patente europea ECDL base, dimostrando la mia versatilità nel campo dell'informatica;La mia esperienza lavorativa include un periodo in Germania, dove ho lavorato come carpentiere edile per l'azienda Torsiello Bau, svolgendo mansioni di stuccatore, decoratore e pitturazione d'interni ed esterni. Questa esperienza mi ha permesso di acquisire competenze nel settore edile e decorativo. Inoltre, ho lavorato come cameriere operatore di sala, dimostrando le mie capacità nell'ambito del servizio al cliente.
-          Sono una persona che sa lavorare bene sia a livello individuale che in gruppo. Le mie passioni includono l'archeologia e l'escursionismo in montagna, specialmente per la raccolta di minerali e fossili. La pesca subacquea è un'altra delle mie passioni che mi ha insegnato la pazienza e l'attenzione ai dettagli.</p>
-     
-           </div>
     </div>
   </div>
 
   <!-- Aggiungi il link al file JavaScript di Bootstrap (opzionale) -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
